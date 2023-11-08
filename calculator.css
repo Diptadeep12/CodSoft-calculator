@@ -1,0 +1,36 @@
+.calculator {
+    width: 700px; /* Increase the width */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #81e2da;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+body {
+    background-color: lightyellow;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 24px; /* Increase the font size */
+    border: none;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 64px; /* Increase the button width */
+    height: 64px; /* Increase the button height */
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 28px; /* Increase the font size */
+}
